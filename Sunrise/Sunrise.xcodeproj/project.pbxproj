@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4698D815A89B1B001BDF5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4698D715A89B1B001BDF5E /* UIKit.framework */; };
+		CE4698DA15A89B1B001BDF5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4698D915A89B1B001BDF5E /* Foundation.framework */; };
+		CE4698DC15A89B1B001BDF5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4698DB15A89B1B001BDF5E /* CoreGraphics.framework */; };
+		CE4698E215A89B1B001BDF5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4698E015A89B1B001BDF5E /* InfoPlist.strings */; };
+		CE4698E415A89B1B001BDF5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4698E315A89B1B001BDF5E /* main.m */; };
+		CE4698E815A89B1C001BDF5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4698E715A89B1C001BDF5E /* AppDelegate.m */; };
+		CE4698EB15A89B1C001BDF5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4698EA15A89B1C001BDF5E /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE4698D315A89B1B001BDF5E /* Sunrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4698D715A89B1B001BDF5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE4698D915A89B1B001BDF5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE4698DB15A89B1B001BDF5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE4698DF15A89B1B001BDF5E /* Sunrise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sunrise-Info.plist"; sourceTree = "<group>"; };
+		CE4698E115A89B1B001BDF5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE4698E315A89B1B001BDF5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE4698E515A89B1B001BDF5E /* Sunrise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sunrise-Prefix.pch"; sourceTree = "<group>"; };
+		CE4698E615A89B1C001BDF5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE4698E715A89B1C001BDF5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE4698E915A89B1C001BDF5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE4698EA15A89B1C001BDF5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4698D015A89B1B001BDF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4698D815A89B1B001BDF5E /* UIKit.framework in Frameworks */,
+				CE4698DA15A89B1B001BDF5E /* Foundation.framework in Frameworks */,
+				CE4698DC15A89B1B001BDF5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4698C815A89B19001BDF5E = {
+			isa = PBXGroup;
+			children = (
+				CE4698DD15A89B1B001BDF5E /* Sunrise */,
+				CE4698D615A89B1B001BDF5E /* Frameworks */,
+				CE4698D415A89B1B001BDF5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4698D415A89B1B001BDF5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4698D315A89B1B001BDF5E /* Sunrise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4698D615A89B1B001BDF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE4698D715A89B1B001BDF5E /* UIKit.framework */,
+				CE4698D915A89B1B001BDF5E /* Foundation.framework */,
+				CE4698DB15A89B1B001BDF5E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE4698DD15A89B1B001BDF5E /* Sunrise */ = {
+			isa = PBXGroup;
+			children = (
+				CE4698E615A89B1C001BDF5E /* AppDelegate.h */,
+				CE4698E715A89B1C001BDF5E /* AppDelegate.m */,
+				CE4698E915A89B1C001BDF5E /* ViewController.h */,
+				CE4698EA15A89B1C001BDF5E /* ViewController.m */,
+				CE4698DE15A89B1B001BDF5E /* Supporting Files */,
+			);
+			path = Sunrise;
+			sourceTree = "<group>";
+		};
+		CE4698DE15A89B1B001BDF5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4698DF15A89B1B001BDF5E /* Sunrise-Info.plist */,
+				CE4698E015A89B1B001BDF5E /* InfoPlist.strings */,
+				CE4698E315A89B1B001BDF5E /* main.m */,
+				CE4698E515A89B1B001BDF5E /* Sunrise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4698D215A89B1B001BDF5E /* Sunrise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4698F115A89B1C001BDF5E /* Build configuration list for PBXNativeTarget "Sunrise" */;
+			buildPhases = (
+				CE4698CF15A89B1B001BDF5E /* Sources */,
+				CE4698D015A89B1B001BDF5E /* Frameworks */,
+				CE4698D115A89B1B001BDF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunrise;
+			productName = Sunrise;
+			productReference = CE4698D315A89B1B001BDF5E /* Sunrise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4698CA15A89B19001BDF5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE4698CD15A89B19001BDF5E /* Build configuration list for PBXProject "Sunrise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE4698C815A89B19001BDF5E;
+			productRefGroup = CE4698D415A89B1B001BDF5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4698D215A89B1B001BDF5E /* Sunrise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4698D115A89B1B001BDF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4698E215A89B1B001BDF5E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4698CF15A89B1B001BDF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4698E415A89B1B001BDF5E /* main.m in Sources */,
+				CE4698E815A89B1C001BDF5E /* AppDelegate.m in Sources */,
+				CE4698EB15A89B1C001BDF5E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE4698E015A89B1B001BDF5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4698E115A89B1B001BDF5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE4698EF15A89B1C001BDF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE4698F015A89B1C001BDF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4698F215A89B1C001BDF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sunrise/Sunrise-Prefix.pch";
+				INFOPLIST_FILE = "Sunrise/Sunrise-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE4698F315A89B1C001BDF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sunrise/Sunrise-Prefix.pch";
+				INFOPLIST_FILE = "Sunrise/Sunrise-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4698CD15A89B19001BDF5E /* Build configuration list for PBXProject "Sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4698EF15A89B1C001BDF5E /* Debug */,
+				CE4698F015A89B1C001BDF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4698F115A89B1C001BDF5E /* Build configuration list for PBXNativeTarget "Sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4698F215A89B1C001BDF5E /* Debug */,
+				CE4698F315A89B1C001BDF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4698CA15A89B19001BDF5E /* Project object */;
+}
