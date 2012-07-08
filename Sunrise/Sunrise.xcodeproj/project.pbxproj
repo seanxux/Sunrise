@@ -14,6 +14,7 @@
 		CE4698E415A89B1B001BDF5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4698E315A89B1B001BDF5E /* main.m */; };
 		CE4698E815A89B1C001BDF5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4698E715A89B1C001BDF5E /* AppDelegate.m */; };
 		CE4698EB15A89B1C001BDF5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4698EA15A89B1C001BDF5E /* ViewController.m */; };
+		CE4D679215A95DA600C8D6FE /* SunUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4D679115A95DA600C8D6FE /* SunUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		CE4698E715A89B1C001BDF5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE4698E915A89B1C001BDF5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE4698EA15A89B1C001BDF5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE4D679015A95DA600C8D6FE /* SunUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunUtils.h; sourceTree = "<group>"; };
+		CE4D679115A95DA600C8D6FE /* SunUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				CE4698E715A89B1C001BDF5E /* AppDelegate.m */,
 				CE4698E915A89B1C001BDF5E /* ViewController.h */,
 				CE4698EA15A89B1C001BDF5E /* ViewController.m */,
+				CE4D679015A95DA600C8D6FE /* SunUtils.h */,
+				CE4D679115A95DA600C8D6FE /* SunUtils.m */,
 				CE4698DE15A89B1B001BDF5E /* Supporting Files */,
 			);
 			path = Sunrise;
@@ -159,6 +164,7 @@
 				CE4698E415A89B1B001BDF5E /* main.m in Sources */,
 				CE4698E815A89B1C001BDF5E /* AppDelegate.m in Sources */,
 				CE4698EB15A89B1C001BDF5E /* ViewController.m in Sources */,
+				CE4D679215A95DA600C8D6FE /* SunUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +268,7 @@
 				CE4698F315A89B1C001BDF5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
